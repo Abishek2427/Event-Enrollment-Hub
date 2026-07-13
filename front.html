@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quantum University Symposium</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="images/phoenix-logo.png" alt="Phoenix Logo">
+            <div>
+                <h2>QUANTUM</h2>
+                <span>UNIVERSITY</span>
+            </div>
+        </div>
+
+
+        <ul class="nav-links">
+            <li><a onclick="showSection('home')">Home</a></li>
+            <li><a onclick="showSection('about')">About</a></li>
+            <li><a onclick="showSection('events')">Events</a></li>
+            <li><a onclick="showSection('register')">Registration</a></li>
+            <li><a onclick="showSection('contact')">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<!-- HOME SECTION -->
+
+<section id="home" class="section active">
+
+    <div class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                QUANTUM<br>
+                <span>TECH FEST 2026</span>
+            </h1>
+
+            <p>
+                Explore Innovation • Technology • Creativity
+            </p>
+
+            <button onclick="showSection('register')">
+                Register Now
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ABOUT SECTION -->
+
+<section id="about" class="section">
+
+    <div class="about-banner">
+
+        <div class="about-text">
+
+            <h1>About Quantum University</h1>
+
+            <p>
+                Quantum University presents a next-generation
+                symposium where students showcase innovation,
+                artificial intelligence, robotics and creative
+                technology solutions.
+            </p>
+
+
+            <p>
+                Our mission is to inspire young minds through
+                collaboration, research and futuristic technology.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- EVENTS SECTION -->
+
+<section id="events" class="section">
+
+    <h1 class="title">
+        Symposium Events
+    </h1>
+
+
+    <div class="event-container">
+
+
+        <div class="event-card">
+
+            <img src="images/debugging.jpg">
+
+            <h2>
+                <i class="fa-solid fa-code"></i>
+                Debugging
+            </h2>
+
+            <p>
+                Test your programming skills and solve real-time coding challenges.
+            </p>
+
+        </div>
+
+
+
+
+        <div class="event-card">
+
+            <img src="images/paper-presentation.jpg">
+
+            <h2>
+                <i class="fa-solid fa-file-lines"></i>
+                Paper Presentation
+            </h2>
+
+            <p>
+                Present innovative ideas and research papers.
+            </p>
+
+        </div>
+
+
+
+
+
+        <div class="event-card">
+
+            <img src="images/painting.jpg">
+
+            <h2>
+                <i class="fa-solid fa-palette"></i>
+                Painting
+            </h2>
+
+            <p>
+                Showcase your creativity through art.
+            </p>
+
+        </div>
+
+
+
+
+
+        <div class="event-card">
+
+            <img src="images/robotics.jpg">
+
+            <h2>
+                <i class="fa-solid fa-robot"></i>
+                Robotics
+            </h2>
+
+            <p>
+                Build and demonstrate futuristic robotic projects.
+            </p>
+
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- REGISTRATION SECTION -->
+
+<section id="register" class="section">
+
+
+    <div class="form-box">
+
+
+        <h1>
+            Event Registration
+        </h1>
+
+
+        <form id="registrationForm">
+
+
+            <input type="text" 
+            id="name"
+            placeholder="Full Name">
+
+
+            <input type="email"
+            id="email"
+            placeholder="Email Address">
+
+
+            <input type="text"
+            id="college"
+            placeholder="College Name">
+
+
+            <select id="event">
+
+                <option>
+                    Select Event
+                </option>
+
+                <option>
+                    Debugging
+                </option>
+
+                <option>
+                    Paper Presentation
+                </option>
+
+                <option>
+                    Painting
+                </option>
+
+                <option>
+                    Robotics
+                </option>
+
+            </select>
+
+
+            <button type="submit">
+                Submit Registration
+            </button>
+
+
+        </form>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- CONTACT SECTION -->
+
+
+<section id="contact" class="section">
+
+
+<div class="contact-box">
+
+
+<h1>
+Contact Quantum University
+</h1>
+
+
+<p>
+<i class="fa-solid fa-location-dot"></i>
+ Quantum University Campus
+</p>
+
+
+<p>
+<i class="fa-solid fa-phone"></i>
+ +91 98765 43210
+</p>
+
+
+<p>
+<i class="fa-solid fa-envelope"></i>
+ quantumuniversity@gmail.com
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+<h2>
+QUANTUM UNIVERSITY
+</h2>
+
+
+<p>
+Innovation | Technology | Future
+</p>
+
+
+<div class="social">
+
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-linkedin"></i>
+
+<i class="fab fa-youtube"></i>
+
+
+</div>
+
+
+
+<p class="copyright">
+© 2026 Quantum University Symposium
+</p>
+
+
+</footer>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
